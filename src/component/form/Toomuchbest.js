@@ -9,8 +9,14 @@ const Toomuchbest = () => {
         setState({ ...state })
 
     }
+
+
     const getState = () => {
+
+
+         localStorage.setItem("data",JSON.stringify(state))
         console.log(state)
+
 
     }
     return (

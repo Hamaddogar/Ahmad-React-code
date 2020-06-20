@@ -3,6 +3,7 @@ import React from 'react';
 import Hamadfunction from '../src/component/form/functionalcomponet'
 import BestFrom from '../src/component/form/bestFrom'
 import TooMuch from '../src/component/form/Toomuchbest'
+ import Data_all from '../src/component/form/mappingfunction'
 // import Home from '../src/component/Header/Header'
 // import Slider from '../src/component/Body/Slider/slider'
 //  import About from '../src/component/Body/Card/card'
@@ -23,7 +24,7 @@ class App extends React.Component {
        <div>
 
 
-<TooMuch/>
+<Data_all/>
        </div>
     //  <BrowserRouter>
     //   <Route exact path="/" component={Home} />
